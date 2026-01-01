@@ -24,12 +24,12 @@ const App = () => {
             <Route path="/signup" exact element={<SignUp />} />
             <Route path="/dashboard" exact element={<Home />} />
             <Route path="/income" exact element={<Income />} />
-            <Route path="/expenses" exact element={<Expenses />} />
+            <Route path="/expense" exact element={<Expenses />} />
           </Routes>
         </Router>
       </div>
 
-      <Toaster 
+      <Toaster /*Check the purpose of this toaster*/
         toastOptions={{
           className: "",
           style: {

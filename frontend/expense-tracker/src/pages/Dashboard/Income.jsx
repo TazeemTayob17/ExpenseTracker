@@ -11,8 +11,8 @@ import DeleteAlert from "../../components/DeleteAlert";
 import { useUserAuth } from "../../hooks/useUserAuth";
 
 const Income = () => {
-
-  useUserAuth();
+ 
+  useUserAuth(); //Check why we do this if its done in Home.jsx already
 
   const [openAddIncomeModal, setOpenAddIncomeModal] = useState(false);
   const [incomeData, setIncomeData] = useState([]);
