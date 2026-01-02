@@ -5,6 +5,8 @@ import { API_PATHS } from "../../utils/apiPaths";
 import toast from "react-hot-toast";
 import axiosInstance from "../../utils/axiosInstance";
 import ExpenseOverview from "../../components/Expense/ExpenseOverview";
+import Modal from "../../components/Modal";
+import AddExpenseForm from "../../components/Expense/AddExpenseForm";
 
 const Expenses = () => {
   useUserAuth();
